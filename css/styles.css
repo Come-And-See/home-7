@@ -393,6 +393,10 @@ img {
   border: none;
 }
 
+.modal-form-policy-link {
+  color: var(--color-button);
+}
+
 /* Header */
 
 .logo {
@@ -750,7 +754,7 @@ img {
 }
 
 .form-input {
-  border: 1px solid #ffffff;
+  border: 1px solid var(--color-title-write);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: transparent;
