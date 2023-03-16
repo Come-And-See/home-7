@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     <title>Studio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,8 +19,14 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="icon"
+      class="js-site-favicon"
+      type="image/svg+xml"
+      href="https://github.githubassets.com/favicons/favicon.svg"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
-     <link rel="icon" class="js-site-favicon" type="image/svg+xml" href="https://github.githubassets.com/favicons/favicon.svg">
+    <link rel="stylesheet" href="./css/media.css" />
   </head>
   <body>
     <!-- Header -->
@@ -407,7 +413,7 @@
     <!-- Modal -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <button class="modal-button" data-modal-close>
+        <button class="modal-button" type="button" data-modal-close>
           <svg class="modal-close-icon">
             <use href="./images/icons.svg#icon-close-button"></use>
           </svg>
@@ -460,7 +466,8 @@
             <input type="checkbox" class="modal-checkbox" name="policy" />
             <span class="modal-form-checkbox-icon"></span>
             <span class="modal-form-policy-text">
-              I accept the terms and conditions of the <a href="#" class="modal-form-policy-link">Privacy Policy</a>
+              I accept the terms and conditions of the
+              <a href="#" class="modal-form-policy-link">Privacy Policy</a>
             </span>
           </label>
 
