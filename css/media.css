@@ -1,3 +1,17 @@
+@media screen and (max-width: 767px) {
+  .menu-icon-charm {
+    width: 32px;
+    height: 22px;
+    display: inline-block;
+  }
+  .menu-toggle {
+    padding: 0;
+  }
+
+
+
+}
+
 @media screen and (min-width: 480px) {
   .container {
     width: 428px;
@@ -66,6 +80,45 @@
 
   .form-input {
     width: 264px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    .nav-address-list {
+      display: block;
+      padding: 16px 16px 16px 0;
+    }
+
+    .nav-address-link {
+      padding-bottom: 12px;
+      padding-top: 0;
+      font-size: 12px;
+      line-height: 1.17;
+      letter-spacing: 0.04em;
+    }
+
+    .header-nav {
+      align-items: flex-end;
+    }
+    .header-nav-link {
+      padding-top: 0;
+    }
+    .active::after {
+      bottom: -1px;
+    }
+    .header-container-item {
+      height: 72px;
+      flex-wrap: inherit;
+      align-items: flex-start;
+    }
+    .logo {
+      margin-right: 120px;
+    }
   }
 }
 
@@ -174,9 +227,21 @@
   .footer-style {
     padding: 100px 0;
   }
- 
+
   .form-input {
     width: 264px;
     padding-left: 24px;
+  }
+
+  .header-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .nav-address-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
   }
 }
