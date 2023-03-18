@@ -7,6 +7,10 @@
     height: 22px;
   }
 
+  .modal {
+    max-width: 392px;
+  }
+
   .menu-toggle {
     padding: 0;
   }
@@ -124,7 +128,7 @@
     width: 768px;
   }
 
-    .hero {
+  .hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
       url(../images/bg-tab-1x.jpg);
   }
@@ -383,5 +387,30 @@
   }
   .mob-menu {
     display: none;
+  }
+
+  .feature-title {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .customers-link {
+    width: 100%;
+  }
+  .modal {
+    height: 97%;
+  }
+
+  .mob-menu-address-link-tel {
+    font-size: 25px;
+  }
+
+  .mob-menu-list-soc {
+    gap: 28px;
+  }
+  .modal-text {
+    padding: 55px 0 0;
+    margin-bottom: 8px;
   }
 }
