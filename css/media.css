@@ -8,7 +8,8 @@
   }
 
   .modal {
-    max-width: 392px;
+    width: 392px;
+    height: 586px;
   }
 
   .menu-toggle {
@@ -224,6 +225,13 @@
       line-height: 1.17;
       letter-spacing: 0.04em;
     }
+    .modal {
+      height: 586px;
+      width: 408px;
+    }
+    .feature-title {
+    
+    text-align: left;}
 
     .header-nav {
       align-items: flex-end;
@@ -305,6 +313,7 @@
   }
   .feature-item {
     width: 264px;
+    margin-bottom: 0;
   }
 
   .feature-title {
@@ -317,6 +326,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-text);
+    font-weight: 400;
   }
 
   .section-what {
@@ -392,15 +402,17 @@
   .feature-title {
     text-align: left;
   }
+   .modal {
+      height: 584px;
+      width: 408px;
+    }
 }
 
 @media screen and (max-width: 479px) {
   .customers-link {
     width: 100%;
   }
-  .modal {
-    height: 97%;
-  }
+
 
   .mob-menu-address-link-tel {
     font-size: 25px;
@@ -412,5 +424,12 @@
   .modal-text {
     padding: 55px 0 0;
     margin-bottom: 8px;
+  }
+ 
+
+
+  .modal {
+    height: 97%;
+   width: 100%;
   }
 }
